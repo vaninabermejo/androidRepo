@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<CheckBoxPreference
+    android:title="music"
+    android:key="checkbox"
+    android:defaultValue="true"
+    android:summary="listen to music" />
+<EditTextPreference
+    android:title="EditTextPreference"
+    android:key="EditTextPreference" />
+<ListPreference
+    android:key="ListPreference"
+    android:title="ListPreference"
+    android:summary="bla bla bla"
+    android:entries="@array/list"
+    android:entryValues="@array/lValues"
+    />
+</PreferenceScreen>

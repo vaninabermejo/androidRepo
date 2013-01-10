@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartingPoint" >
+
+  <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:gravity="center_horizontal"
+        android:text="your total is cero"
+        android:textSize="45sp" />
+
+  <Button
+      android:id="@+id/bAdd"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/tvDisplay"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="14dp"
+      android:gravity="center"
+      android:background="@drawable/custom"
+      android:textSize="20sp" />
+   <Button
+      android:id="@+id/bdelete"
+      android:layout_width="250sp"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/bAdd"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="14dp"
+      android:gravity="center"
+      android:text="delete one"
+      android:textSize="20sp" />
+</RelativeLayout>
